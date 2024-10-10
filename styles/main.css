@@ -1,0 +1,40 @@
+
+:root {
+    --primary: #ffffff; /* Big sky blue */
+    --secondary: #2C3E50; /* Forest green */
+    --accent1: #DAA520; /* Warm gold */
+    --accent2: #8B4513; /* Rustic brown */
+    --text1: #ffffff;
+    --text2: #000000;
+
+}
+
+html {
+    font-size: 1rem; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#citation-section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+ol {
+    padding-left: 1.5rem;
+}
+
+ol li {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+
