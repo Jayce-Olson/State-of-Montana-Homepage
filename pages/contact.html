@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/navbar.css">
-    <!-- <link rel="stylesheet" href="../styles/body.css"> -->
     <link rel="stylesheet" href="/styles/form.css">
+    <script src="/scripts.js"></script>
     <title>Contact Form</title>
 </head>
 
@@ -69,10 +69,10 @@
 
                 <div class="form-group">
                     <label for="question">Your Question:</label>
-                    <textarea id="question" name="question" rows="5" required></textarea>
+                    <textarea id="question" name="question" rows="5"></textarea>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group" onclick="contact(event)">
                     <button type="submit" class="submit-btn">Submit</button>
                 </div>
             </form>
